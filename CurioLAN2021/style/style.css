@@ -1,0 +1,505 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'candara';
+}
+head{
+    color :#2C2F33;
+}
+body{
+    background-color: #C5C6C7;
+}
+header{
+    background-color: #242582;
+    color: #2C2F33;
+    height: 150px;
+    border-bottom: 5px solid #2f2fa2;
+    position: fixed;
+    top: 0;
+    left: 8px;
+    right: 0;
+    width: 99.1%;
+    z-index: 100;
+}
+.lanpartylogo{
+    width: 150px;
+    height: 150px;
+}
+p a{
+    text-decoration: none;
+    color: #242582;
+}
+#info h2{
+    font-size: 50px;
+}
+.grid-container{
+    position: absolute;
+    top: 33%;
+    right: 50%;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 10px;
+    width: 150px;
+}
+.grid-container a{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 40px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.grid-container a:nth-child(1){
+    color: black;
+    padding-left: 47px;
+}
+.grid-container a:nth-child(2){
+    color: black;
+    padding-left: 0px;
+}
+.grid-container a:nth-child(3){
+    color: black;
+    padding-left: 35px;
+}
+.grid-container a:nth-child(4){
+    color: black;
+}
+.grid-container a:hover{
+    color: #242582;
+}
+h2 b{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#welkom{
+    padding-top: 200px;
+    background-color: #C5C6C7;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+#welkom p{
+    color:#242582;
+}
+
+#welkom b{
+    color:#242582;
+}
+
+iframe{
+    border-radius: 5%;
+}
+iframe:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#info{
+    padding-top: 50px;
+    background-color: #242582;
+    color: whitesmoke;
+    padding-bottom: 50px;
+    background-size: cover;
+    border: 5px solid #2f2fa2;
+    border-radius: 10px;
+}
+#info div:nth-child(1){
+    padding-top: 30px;
+}
+.flexrowinfo{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.benodigdheden{
+    width: 15%;
+}
+h1{
+    font-size: 30px;
+}
+.lanpartyimg{
+    width: 200px;
+    height: 140px;
+    border-radius: 10%;
+}
+.dclogo{
+    width: 219px;
+    height: 60px;
+    padding: 20px;
+    cursor: pointer;
+}
+position{
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+}
+.dclogo:hover{
+    border-radius: 10px;
+    background-color: #C5C6C7;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#games{
+    background-color: #C5C6C7;
+    height: 550px;
+    padding-bottom: 50px;
+}
+#games b{
+    font-size: 70px;
+    margin-left: 50px;
+    color: #242582;
+}
+#games center{
+    font-size: 85px;
+}
+.gameflexrow div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 99%;
+    height: 450px;
+}
+.gameplaatjes{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 110px 110px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.gameplaatjes a:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.valorant{
+    width: 178px;
+    height: 137px;
+}
+.valorant a:hover{
+    width: 178px;
+    height: 137px;
+}
+.rocketleague{
+    width: 310px;
+    height: 110px;
+}
+.amongus{
+    width: 192px;
+    height: 108px;
+}
+.minecraft{
+    width: 160px;
+    height: 160px;
+}
+.gtav{
+    width: 256px;
+    height: 144px;
+}
+.leagueoflegends{
+    width: 240px;
+    height: 162px;
+}
+.rondje{
+    opacity: 0;
+    position: relative;
+    left: 1250px;
+    top: -440px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    animation: transform 4s linear infinite;
+}
+#inschrijven{
+    background-color: black;
+    height: 350px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+#inschrijven h2{
+    font-size: 50px;
+}
+.inschrijvenflex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    background-color: #C5C6C7;
+}
+.inschrijven{
+    width: 50%;
+    background-color: #242582;
+}
+.fotos{
+    background-color: #242582;
+    width: 50%;
+}
+#inschrijven a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: black;
+}
+footer{
+    padding-top: 20px;
+    width: 100%;
+    height: 200px;
+    color: #242582;
+}
+#inschrijven a:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #242582;
+}
+.inschrijvenflex div{
+    border: 5px solid #2f2fa2;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1355px){
+        .flexrowinfo{
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .lanpartyimg{
+        width: 300px;
+        height: 210px;
+    }
+    .area{
+        position: absolute;
+        right: 10%;
+        top: 65%;
+    }
+    .benodigdheden{
+        width: 100%;
+    }
+    #info{
+        width: 90%;
+        padding-top: 100px;
+        background-color: #242582;
+        color: whitesmoke;
+    }
+}
+section:target{
+    animation: fadeIn linear 2s forwards;
+}
+@keyframes fadeIn {
+    0%{ opacity: 0; }
+    100%{ opacity: 1; }
+} 
+@keyframes transform {
+    0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(360deg); }
+} 
+@media screen and (max-width: 1200px){
+    #welkom{
+        padding-top: 150px;
+        background-color: #C5C6C7;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 1500px){
+    .gameflexrow div{
+        padding-top: 50px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 10%;
+        align-items: center;
+        width: 45%;
+        height: 600px;
+        padding: 100px;
+    }
+    .gameplaatjes img{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #games{
+        background-color: #C5C6C7;
+        height: 900px;
+    }
+}
+@media screen and (max-width: 1000px){
+    iframe{
+        width: 500px;
+        height: 200px;
+    }
+    #welkom h2{
+        padding-top: 100px;
+    }
+}
+.wrapper{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background:#5662F6;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #fff;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #ff0000;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #5662F6;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #1DB954;
+  }
+.discord{
+    color: #333;
+    text-decoration: none;
+}
+.insta{
+    color: #333;
+    text-decoration: none;
+}
+#spotify{
+    padding-top: 15px;
+}
+#spotify b{
+    margin-bottom: 10px;
+    top: 10px
+}
+.yt{
+    text-decoration: none;
+    color: #333;
+}
+.hoi{
+    transform: scale(1.5);
+}
+.postformulier > div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    flex-direction: row;
+}
+.postformulier > div.voorwaarden{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    flex-direction: row;
+}
+.postformulier {
+    margin-top: 10%;
+    align-items: center;
+    display: grid;
+    border: 5px solid #2f2fa2;
+    background-color: #242582;
+    color: whitesmoke;
+    padding: 2%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 260px;
+    margin-right: 260px;
+} 
+.postformulier > center{
+    margin-bottom: 1%;
+}
+
+.verzend {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 150px;
+    height: 53px;
+}
+.verzend:hover{
+    color: #242582;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+

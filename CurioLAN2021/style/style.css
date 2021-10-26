@@ -8,6 +8,20 @@ head{
 body{
     background-color: #C5C6C7;
 }
+::-webkit-scrollbar {
+    width: 2em;
+}
+::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #242582;
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2f2fa2;
+}
 header{
     background-color: #242582;
     color: #2C2F33;
@@ -464,7 +478,7 @@ section:target{
     flex-direction: row;
 }
 .postformulier {
-    margin-top: 10%;
+    margin-top: 200px;
     align-items: center;
     display: grid;
     border: 5px solid #2f2fa2;
